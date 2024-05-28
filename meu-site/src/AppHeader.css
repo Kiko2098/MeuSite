@@ -1,0 +1,32 @@
+.App-header {
+    background-color: #E0E0E0; 
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    /*font-size: calc(10px + 2vmin); */
+    color: black;     
+    font-family: 'Arvo', serif;
+    box-sizing: border-box; 
+  }
+  
+  
+  .arvo-bold-one {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;  
+    margin-top: 40px;   
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+  }
+
+  .arvo-bold-two {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;  
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  

@@ -1,0 +1,31 @@
+.NavBar {
+  background-color: #333;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.NavBar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.NavBar-item {
+  margin: 0 15px;
+}
+
+.NavBar-item a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Arvo', serif;
+  font-weight: 700;
+}
+
+.NavBar-item a:hover {
+  text-decoration: underline;
+}

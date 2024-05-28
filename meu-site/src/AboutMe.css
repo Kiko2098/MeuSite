@@ -1,0 +1,69 @@
+.AboutMe {
+    padding: 1%;
+  }
+
+
+  .arvo-regular {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+  }
+  
+  .arvo-bold-cab {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+
+  .arvo-bold-contacto {
+    padding-top: 8% ;
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .arvo-regular-contacto {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: underline;
+    font-size: 60%;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px; 
+  }
+  
+  .icon {
+    width: 32px;  
+    height: 24px;  
+    margin-right: 0;
+    justify-content: right;
+  }
+
+  .icon-text {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+
+  .black-link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .black-link:hover, .black-link:focus, .black-link:active {
+    color: black;
+    text-decoration: underline;
+  }
