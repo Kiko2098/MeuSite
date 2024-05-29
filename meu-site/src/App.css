@@ -7,7 +7,7 @@ body, html {
 
 .App {
   text-align: center;
-  background-color: #E0E0E0; /* Cor de fundo cinza médio */
+  background-color: #FFFFFF; /* Cor de fundo cinza médio */
   min-height: 100vh; /* Altura mínima de 100% da viewport */
   display: flex;
   flex-direction: column;

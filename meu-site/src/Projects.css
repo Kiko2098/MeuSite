@@ -10,6 +10,7 @@
   text-align: center;  
   text-decoration: underline;
   padding: 5px;
+  color: #264653;
 }
 
 .header2-Projects {
@@ -18,6 +19,7 @@
   font-style: normal;
   text-align: center;
   padding: 5px;
+  color: #264653;
 }
 
 .descricao-Projects {
@@ -29,12 +31,15 @@
   margin-top: 10px;
   margin-left: 10%;
   margin-right: 10%;
+  color: #333333;
+  line-height: 1.6;
 }
 
 .contact-button {
-  background-color: #333; 
+  background-color: #264653; 
   border: none;
   color: white;
+  font-weight: 400;
   padding: 10px 30px;
   text-align: center;
   text-decoration: none;
@@ -47,11 +52,8 @@
   transition: background-color 0.5s ease;
 }
 
-.contact-button:hover, .contact-button :focus, .contact-button:active {
-  color: white;
-  text-decoration: none;
-  background-color: #45a049;
-}
+
+
 .button-link {
   color: inherit;  
   text-decoration: none;
@@ -66,7 +68,7 @@
 .divider {
   border: none;
   height: 2px;
-  background-color: black;
+  background-color: #333333;
   margin: 20px auto;
   width: 80%;
 }
@@ -99,6 +101,7 @@
     text-align: justify;
     margin-left: 10%;
     margin-right: 10%;
+    color: #333333;
   }
 
   .arvo-regular-projetos  {
@@ -108,4 +111,5 @@
     text-align: left;
     padding-left: 10%;
     font-size: 80%;
+    color: #333333;
   }

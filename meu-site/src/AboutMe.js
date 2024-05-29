@@ -24,12 +24,13 @@ function AboutMe() {
 
       <p className="arvo-regular" >Estou sempre aberto a novas oportunidades e colaborações, 
       especialmente aquelas que me permitam combinar a minha experiência técnica com a minha curiosidade.
-      </p>          
+      </p>  
+
+      <hr className="divider-MicroGreens" />          
       
       <h2 className="arvo-bold-cab">O que estou a fazer atualmente</h2>
       <p className="arvo-regular" >Estou a desenvolver um projeto de gestão de produção de microvegetais, que pode ser consultado na aba de projetos .</p>
       <p className="arvo-regular" >O meu próximo objetivo é entrar no mundo do Python, mais especificamente em machine learning, e já tenho algumas ideias de projetos. Além disso, gosto de explorar novas tendências e inovações no campo da programação.</p>
-      
       
       
       <h2 className="arvo-bold-contacto" >Contactos</h2>

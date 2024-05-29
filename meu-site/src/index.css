@@ -16,22 +16,26 @@ code {
   font-family: "Arvo", serif;
   font-weight: 400;
   font-style: normal;
+  color: #333333;
 }
 
 .arvo-bold {
   font-family: "Arvo", serif;
   font-weight: 700;
   font-style: normal;
+  color: #333333;
 }
 
 .arvo-regular-italic {
   font-family: "Arvo", serif;
   font-weight: 400;
   font-style: italic;
+  color: #333333;
 }
 
 .arvo-bold-italic {
   font-family: "Arvo", serif;
   font-weight: 700;
   font-style: italic;
+  color: #333333;
 }

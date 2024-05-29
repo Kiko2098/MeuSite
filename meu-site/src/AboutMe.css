@@ -10,6 +10,8 @@
     padding-left: 10%;
     padding-right: 10%;
     text-align: justify;
+    color: #333333;
+    line-height: 1.6;
   }
   
   .arvo-bold-cab {
@@ -18,6 +20,8 @@
     font-style: normal;
     padding-left: 10%;
     padding-right: 10%;
+    color: #264653;
+    
   }
 
 
@@ -26,6 +30,8 @@
     font-family: "Arvo", serif;
     font-weight: 700;
     font-style: normal;
+    color: #264653;
+    
   }
 
   .arvo-regular-contacto {
@@ -36,6 +42,7 @@
     padding-right: 10%;
     text-decoration: underline;
     font-size: 60%;
+    color: #333333;
   }
 
   .contact-item {
@@ -43,11 +50,12 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 8px; 
+    color: #264653;
   }
   
   .icon {
-    width: 32px;  
-    height: 24px;  
+    width: 40px;  
+    height: 26px;  
     margin-right: 0;
     justify-content: right;
   }
@@ -56,14 +64,27 @@
     display: flex;
     align-items: center;
     white-space: nowrap;
+    color: #333333;
+    
   }
 
   .black-link {
-    color: black;
+    color: #333333;
     text-decoration: none;
   }
   
   .black-link:hover, .black-link:focus, .black-link:active {
-    color: black;
+    color: #333333;
     text-decoration: underline;
+  }
+
+
+  .divider-MicroGreens {
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 80%;
+    color: #333333;
   }
