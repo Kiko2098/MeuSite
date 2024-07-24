@@ -1,0 +1,13 @@
+/// LINKED IN
+
+import linkedInIcon from './Imagens/linkedin.png'; 
+
+<span className="icon-text">
+        <img src={linkedInIcon} alt="LinkedIn" className="icon" />
+          <span className="arvo-regular-contacto">
+            <a href="https://www.linkedin.com/in/francisco-faustino-almeida" target="_blank" rel="noopener noreferrer" className="black-link">francisco-faustino-almeida</a>
+          </span>
+      </span>
+
+
+      

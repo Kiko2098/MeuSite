@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
 import mailIcon from './Imagens/mail.png'; 
-import linkedInIcon from './Imagens/linkedin.png'; 
+
 
 function AboutMe() {
   return (
@@ -30,8 +30,9 @@ function AboutMe() {
       
       <h2 className="arvo-bold-cab">O que estou a fazer atualmente</h2>
       <p className="arvo-regular" >Estou a desenvolver um projeto de gestão de produção de microvegetais, que pode ser consultado na aba de projetos .</p>
-      <p className="arvo-regular" >O meu próximo objetivo é entrar no mundo do Python, mais especificamente em machine learning, e já tenho algumas ideias de projetos. Além disso, gosto de explorar novas tendências e inovações no campo da programação.</p>
+      <p className="arvo-regular" >O meu próximo objetivo é entrar no mundo do Python, mais especificamente em web scraping. O primeiro projeto que quero concluir até ao fim do mês de julho é um rastreador de preços de artigos de grandes superfícies. Podes consultar mais sobre este projeto na aba dos projetos. Além disso, estou a aprender alemão nos tempos livres.</p>
       
+      <hr className="divider-MicroGreens" /> 
       
       <h2 className="arvo-bold-contacto" >Contactos</h2>
       <div className="contact-item">
@@ -42,12 +43,8 @@ function AboutMe() {
       </div>
       <div className="contact-item">
 
-      <span className="icon-text">
-        <img src={linkedInIcon} alt="LinkedIn" className="icon" />
-          <span className="arvo-regular-contacto">
-            <a href="https://www.linkedin.com/in/francisco-faustino-almeida" target="_blank" rel="noopener noreferrer" className="black-link">francisco-faustino-almeida</a>
-          </span>
-      </span>
+       
+      
       
       </div>
            

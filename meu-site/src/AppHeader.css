@@ -6,7 +6,7 @@
     justify-content: center; 
     color: black;     
     font-family: 'Arvo', serif;
-    box-sizing: border-box; 
+    box-sizing: border-box;
   }
   
   
@@ -15,7 +15,8 @@
     font-weight: 700;
     font-style: normal;  
     color: #333333;
-    margin-top: 40px;   
+    margin-top: 20px;   
+    margin-bottom: 20px; 
     padding-left: 10%;
     padding-right: 10%;
     text-align: justify;
@@ -26,9 +27,37 @@
     font-family: "Arvo", serif;
     font-weight: 700;
     color: #333333;
+    margin-top: 20px; 
     font-style: normal;  
     padding-left: 10%;
     padding-right: 10%;
     line-height: 1.6;
   }
   
+
+  .inicio-image {
+    width:80%;  
+    height: 20%;  
+    margin-right: 0;
+    justify-content: right;
+    max-width: 900px;
+    margin-top: 20px;
+  }
+
+  .inicio-table {
+    margin-top: 5%;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .inicio-table th, .inicio-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .inicio-table th {
+    background-color: #f2f2f2;
+  }
