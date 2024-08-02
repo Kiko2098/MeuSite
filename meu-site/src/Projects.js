@@ -54,6 +54,26 @@ function Projects() {
       </Link>
       <hr className="divider" />
 
+      <h2 className="header2-Projects">Procura de arma</h2>
+      
+      <p className="descricao-Projects">
+      Aplicação desktop desenvolvida em C# que permite ao utilizador procurar um modelo de arma pelos vários sites de armeiros portugueses e mostra todos os resultados nos vários sites, 
+      o display vai apresentar ao utilizador vai conseguir visualizar os preços e o link de acesso direto a página do site.
+
+      </p>
+      <hr className="divider" />
+
+
+      <h2 className="header2-Projects">Calculadora de pladur</h2>
+      
+      <p className="descricao-Projects">
+      Aplicação android que permite ao utilizador inserir as dimensões de várias paredes e tetos de um projeto de construção de forma simples 
+      e são devolvidos os valores de materiais necessários. 
+      É possivel ainda que sejam impressos relatórios em pdf com a lista de materiais a encomendar aos fornecedores.
+
+      </p>
+      <hr className="divider" />
+
       
     </div>
   );

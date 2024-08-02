@@ -1,6 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
-import mailIcon from './Imagens/mail.png'; 
+import mailIcon from './Imagens/mail.png';
+import linkedInIcon from './Imagens/linkedin.png';   
 
 
 function AboutMe() {
@@ -42,14 +43,20 @@ function AboutMe() {
         </span>
       </div>
       <div className="contact-item">
+      <span className="icon-text">
+        <img src={linkedInIcon} alt="LinkedIn" className="icon" />
+          <span className="arvo-regular-contacto">
+            <a href="https://www.linkedin.com/in/francisco-faustino-almeida" target="_blank" rel="noopener noreferrer" className="black-link">francisco-faustino-almeida</a>
+          </span>
+      </span>
+
+      </div>
 
        
       
       
       </div>
-           
-      
-    </div>
+          
   );
 }
 

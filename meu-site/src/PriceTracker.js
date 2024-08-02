@@ -63,22 +63,22 @@ function PriceTracker() {
       <ul className="ul-PriceTracker">
         <li className="li-PriceTracker">Foram criadas quatro tabelas distintas, uma para cada loja.</li>
         <li className="li-PriceTracker">Com essas tabelas, 
-          foi criada uma tabela MATRIZ para encontrar equivalentes dos artigos entre as lojas.</li>        
+          foi criada uma tabela MATRIZ para encontrar os artigos comuns entre as lojas.</li>        
       </ul>
 
       <h2 className="h2-PriceTracker">Metodologia de Matching</h2>
       <h3 className="h3-PriceTracker">1. Tentativa Inicial:</h3>
       <ul className="ul-PriceTracker">
-        <li className="li-PriceTracker">A primeira abordagem usou o nome dos artigos para encontrar correspondências.</li>
-        <li className="li-PriceTracker">Este método revelou-se ineficaz devido à disparidade dos nomes dos artigos entre as lojas.</li>        
+        <li className="li-PriceTracker">A primeira abordagem foi o uso do nome dos artigos para encontrar correspondências.</li>
+        <li className="li-PriceTracker">Este método revelou-se ineficaz devido ao mesmo artigo ter nomes diferentes entre as várias lojas.</li>        
       </ul>
 
       <h3 className="h3-PriceTracker">2. Abordagem pelo EAN 13:      </h3>
       <ul className="ul-PriceTracker">
-        <li className="li-PriceTracker">Optámos por utilizar o EAN 13, um número único e universal, facilitando a correspondência entre os artigos.</li>
+        <li className="li-PriceTracker">Optei por utilizar o EAN 13 o que se revelou ser o método ideal.</li>
         <li className="li-PriceTracker">Foram excluídos os artigos de marca branca, pois a correspondência desses artigos exigiria uma verificação manual para garantir precisão.</li>
-        <li className="li-PriceTracker">Após a aplicação do método de matching pelo EAN 13, conseguimos identificar 3500 artigos com correspondências entre as lojas.</li>        
-        <li className="li-PriceTracker">Observámos que a maioria dos artigos não tinha correspondência entre todas as quatro lojas, mas tinham correspondências em pelo menos duas.</li>                
+        <li className="li-PriceTracker">Após a aplicação do método de matching pelo EAN 13, consegui identificar 3500 artigos com correspondências entre as lojas, 
+          observei ainda que a maioria dos artigos não tinha correspondência entre todas as quatro lojas sendo que existia correspondência em pelo menos duas.</li>                
       </ul>
 
 
@@ -90,25 +90,30 @@ function PriceTracker() {
 
       <h3 className="h3-PriceTracker">2. Desempenho e Limitações dos Sites:</h3>
       <ul className="ul-PriceTracker">
-        <li className="li-PriceTracker">Encontrámos dificuldades significativas em termos de rapidez de resposta dos sites.</li>
-        <li className="li-PriceTracker">Foi necessário garantir que o número de pedidos não excedesse o limite considerado aceitável pelos sites, evitando assim bloqueios.</li>
-        <li className="li-PriceTracker">Esta limitação levou a um tempo de pesquisa prolongado para encontrar os preços dos artigos.</li>
+        <li className="li-PriceTracker">Encontrei dificuldades significativas em termos de rapidez de resposta dos sites. 
+          Foi necessário garantir que o número de pedidos não excedesse o limite considerado aceitável pelos sites, evitando assim bloqueios.
+          Esta limitação levou a um tempo de pesquisa prolongado para encontrar os preços dos artigos.</li>
       </ul>
 
 
       
       <h3 className="h3-PriceTracker">Soluções Testadas</h3>
       <ul className="ul-PriceTracker">
-        <li className="li-PriceTracker">Uso de Proxies Gratuitas - A maioria das proxies gratuitas não funcionam corretamente, 
-          resultando em um tempo maior para encontrar uma proxy funcional do que esperar os timings para evitar bloqueios.</li>
         <li className="li-PriceTracker">Espera entre Pedidos - A espera de alguns segundos entre pedidos resulta em um tempo muito longo para a aplicação encontrar os preços.</li>
+        <li className="li-PriceTracker">Uso de Proxies Gratuitas - A maioria das proxies gratuitas não funcionam corretamente, 
+          resultando em um tempo maior para encontrar uma proxy funcional do que esperar os timings para evitar bloqueios.</li>        
         <li className="li-PriceTracker">Cache - Utilizar cache ajuda, pois só busca os artigos cujo preço não foi procurado no mesmo dia. No entanto, isso implica que todos os dias seja necessário procurar os preços de todos os artigos.</li>
       </ul>
 
-
-
-      <hr className="divider-PriceTracker" /> 
+      <h2 className="h2-PriceTracker">Conclusão</h2>
+      <p className="p-PriceTracker">
+      O projeto demonstrou que só seria viável se contasse com um serviço em operação 24 horas por dia, 
+      atualizando os preços em tempo real e inserindo tempos de espera entre os pedidos para evitar bloqueios. 
+      No entanto, encontrei uma aplicação portuguesa, chamada SuperSave, que oferece exatamente o que eu procurava com este projeto. 
+      A SuperSave está disponível na App Store e Google Play, e é possível encontrar mais informações em supersave.pt.
       
+      </p>
+      <hr className="divider-PriceTracker" /> 
 
 
         

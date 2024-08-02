@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './AppHeader.css';
-import mailIcon from './Imagens/mail.png'; 
 import InicioImg from './Imagens/InicioImg.jpeg'; 
 
 
@@ -21,20 +19,30 @@ function AppHeader() {
         <thead>
           <tr>
             <th>Projetos</th>
-            <th>Proxima Atualização</th>
-            <th>Link</th>
+            <th>Estado</th>
+            <th>Data</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>MicroGreens</td>
-            <td>30/02/2024</td>
-            <td><Link to="/projects/MicroGreens">Ver mais</Link></td>
+            <td>Próxima atualização</td>
+            <td>08/08/2024</td>
+          </tr>          
+          <tr>
+            <td>Procura de arma</td>
+            <td>Por iniciar</td>
+            <td>20/08/2024</td>
+          </tr>
+          <tr>
+            <td>Calculadora de pladur</td>
+            <td>Por iniciar</td>
+            <td>25/08/2024</td>
           </tr>
           <tr>
             <td>PriceTracker</td>
             <td>Concluído</td>
-            <td><Link to="/projects/PriceTracker">Ver mais</Link></td>
+            <td>20/07/2024</td>
           </tr>
           
         </tbody>
@@ -44,13 +52,8 @@ function AppHeader() {
       <p className="arvo-bold-two">Fica à vontade para entrar em contato e discutir possíveis colaborações!
       </p>
 
-      <div className="contact-item">
-        <span className="icon-text">
-          <img src={mailIcon} alt="Email" className="icon" />
-          <span className="arvo-regular-contacto">contacto@franciscoalmeida.pt</span>
-        </span>
-      </div>
-      <div className="contact-item"></div>
+      
+      
     </header>
   );
 }
