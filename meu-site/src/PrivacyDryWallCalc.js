@@ -14,20 +14,14 @@ function PrivacyDryWallCalc() {
     <div>
       
       <button
+        className={`button ${language === 'pt' ? 'selected' : ''}`}
         onClick={() => handleLanguageChange('pt')}
-        style={{
-          backgroundColor: language === 'pt' ? 'white' : 'blue',
-          color: language === 'pt' ? 'black' : 'white',
-        }}
       >
         Português
       </button>
       <button
+        className={`button ${language === 'en' ? 'selected' : ''}`}
         onClick={() => handleLanguageChange('en')}
-        style={{
-          backgroundColor: language === 'en' ? 'white' : 'blue',
-          color: language === 'en' ? 'black' : 'white',
-        }}
       >
         English
       </button>
