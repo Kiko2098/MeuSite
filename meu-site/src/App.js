@@ -6,6 +6,8 @@ import AboutMe from './AboutMe';
 import Projects from './Projects';
 import MicroGreens from './MicroGreens';
 import PriceTracker from './PriceTracker';
+import DryWallCalc from './DryWallCalc';
+import PrivacyDryWallCalc from './PrivacyDryWallCalc';  
 import './App.css';
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
             <Route path="/Projects" element={<Projects />} />
             <Route path="/projects/MicroGreens" element={<MicroGreens />} />
             <Route path="/projects/PriceTracker" element={<PriceTracker />} />
+            <Route path="/projects/DryWallCalc" element={<DryWallCalc />} />
+            <Route path="/privacy/DryWallCalc" element={<PrivacyDryWallCalc />} />  
           </Routes>
         </main>
       </div>

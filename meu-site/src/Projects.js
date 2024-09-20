@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Projects.css';
 import verdesMondegoIcon from './Imagens/VerdesMondego.png'; 
 import pythonIcon from './Imagens/Python.png'; 
+import DryWallCalcIcon from './Imagens/DryWallCalc.png'; 
 
 function Projects() {
   return (
@@ -53,19 +54,14 @@ function Projects() {
         </button>
       </Link>
       <hr className="divider" />
-
-      <h2 className="header2-Projects">Procura de arma</h2>
-      
-      <p className="descricao-Projects">
-      Aplicação desktop desenvolvida em C# que permite ao utilizador procurar um modelo de arma pelos vários sites de armeiros portugueses e mostra todos os resultados nos vários sites, 
-      o display vai apresentar ao utilizador vai conseguir visualizar os preços e o link de acesso direto a página do site.
-
-      </p>
-      <hr className="divider" />
-
+     
 
       <h2 className="header2-Projects">Calculadora de pladur</h2>
-      
+      <div className="contact-item-projetos ">
+      <span className="icon-text-projetos ">
+          <img src={DryWallCalcIcon} alt="DryWallCalc" className="icon-projetos" />
+      </span>
+      </div>
       <p className="descricao-Projects">
       Aplicação android que permite ao utilizador inserir as dimensões de várias paredes e tetos de um projeto de construção de forma simples 
       e são devolvidos os valores de materiais necessários. 

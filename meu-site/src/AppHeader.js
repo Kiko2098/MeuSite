@@ -20,29 +20,24 @@ function AppHeader() {
           <tr>
             <th>Projetos</th>
             <th>Estado</th>
-            <th>Data</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>MicroGreens</td>
-            <td>Próxima atualização</td>
-            <td>08/08/2024</td>
+            <td>Em curso</td>
           </tr>          
           <tr>
             <td>Procura de arma</td>
             <td>Por iniciar</td>
-            <td>20/08/2024</td>
           </tr>
           <tr>
             <td>Calculadora de pladur</td>
-            <td>Por iniciar</td>
-            <td>25/08/2024</td>
+            <td>Em curso</td>
           </tr>
           <tr>
             <td>PriceTracker</td>
             <td>Concluído</td>
-            <td>20/07/2024</td>
           </tr>
           
         </tbody>

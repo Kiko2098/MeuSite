@@ -1,0 +1,68 @@
+.PrivacyDWC {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+
+  .arvo-regular {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    color: #333333;
+    line-height: 1.6;
+  }
+  
+  .arvo-bold-cab {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #264653;
+    text-align: left;
+    
+  }
+
+  .arvo-bold-cab2 {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #264653;
+    text-align: center;
+    
+  }
+
+
+  .arvo-bold-contacto {
+    
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #264653;
+    
+  }
+
+  .arvo-regular-contacto {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: underline;
+    
+    color: #333333;
+  }
+  .divider-PWC {
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 80%;
+    color: #333333;
+  }
