@@ -23,18 +23,16 @@ function AppHeader() {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>MicroGreens</td>
-            <td>Em curso</td>
-          </tr>          
-          <tr>
-            <td>Procura de arma</td>
-            <td>Por iniciar</td>
-          </tr>
-          <tr>
+        <tr>
             <td>Calculadora de pladur</td>
             <td>Em curso</td>
           </tr>
+
+          <tr>
+            <td>MicroGreens</td>
+            <td>Concluído</td>
+          </tr>
+          
           <tr>
             <td>PriceTracker</td>
             <td>Concluído</td>

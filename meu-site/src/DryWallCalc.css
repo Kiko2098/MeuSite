@@ -1,0 +1,165 @@
+.DryWallCalc {
+    text-align: center;
+    padding: 1px;
+  }
+
+  .h1-DryWallCalc {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 20px;
+
+    color: #264653;
+    
+  }
+
+  .h2-DryWallCalc {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 20px;
+    text-align: center;
+    color: #333333;
+    
+  }
+  .h3-DryWallCalc {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #333333;
+    text-align: left; 
+    
+  }
+
+  .h4-DryWallCalc {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #333333;
+    
+  }
+  .p-DryWallCalc {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;    
+    padding-left: 10%;
+    padding-right: 10%;    
+    color: #333333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    
+  }
+  .p-feedback-DryWallCalc {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    
+    font-style: italic;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    color: #6C757D;
+    line-height: 1.6;
+  }
+
+  .divider-DryWallCalc {
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 80%;
+    color: #333333;
+  }
+  
+
+  .DryWallCalc-image-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px; 
+    color: #264653;
+  }
+  
+  .DryWallCalc-image {
+    width:80%;  
+    height: 20%;  
+    margin-right: 0;
+    justify-content: right;
+  }
+  .ul-DryWallCalc {
+    list-style-type: disc;
+    padding-left: 15%;
+    padding-right: 10%;
+    color: #333333;
+  }
+  
+  .li-DryWallCalc {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    margin-bottom: 5px;
+    color: #333333;
+  }
+
+
+  .DryWallCalc-image-item {
+    display: grid;
+    place-items: center;
+    margin-bottom: 8px;
+    color: #264653;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .DryWallCalc-image {
+    width: 89%;
+    max-width: 450px;
+    min-width: 10px;
+    justify-content: center; 
+  }
+  
+  .image-cycler {
+    width: 89%;
+    margin: 0 auto; 
+    max-width: 450px; 
+    min-width: 10px;
+  }
+
+  .inicio-table {
+    margin-top: 5%;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .inicio-table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-family: "Arvo", serif;
+    font-weight: 600;
+    font-style: bold;
+  } 
+  
+  .inicio-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+  
+  .inicio-table th {
+    background-color: #f2f2f2;
+  }
+  

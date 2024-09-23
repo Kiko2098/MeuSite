@@ -7,7 +7,7 @@ import linkedInIcon from './Imagens/linkedin.png';
 function AboutMe() {
   return (
     <div className="AboutMe">
-      <h2 className="arvo-bold-cab">Sobre Mim</h2>
+      <h2 className="arvo-cab">Sobre Mim</h2>
       
       <p className="arvo-regular" > O meu nome é Francisco, sou natural de Coimbra. 
       Tenho uma licenciatura em Contabilidade, embora nunca tenha exercido na área. 
@@ -29,7 +29,7 @@ function AboutMe() {
 
       <hr className="divider-MicroGreens" />          
       
-      <h2 className="arvo-bold-cab">O que estou a fazer atualmente</h2>
+      <h2 className="arvo-cab">O que estou a fazer atualmente</h2>
       <p className="arvo-regular" >Estou a desenvolver um projeto de gestão de produção de microvegetais, que pode ser consultado na aba de projetos .</p>
       <p className="arvo-regular" >O meu próximo objetivo é entrar no mundo do Python, mais especificamente em web scraping. O primeiro projeto que quero concluir até ao fim do mês de julho é um rastreador de preços de artigos de grandes superfícies. Podes consultar mais sobre este projeto na aba dos projetos. Além disso, estou a aprender alemão nos tempos livres.</p>
       

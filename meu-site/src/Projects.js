@@ -56,7 +56,7 @@ function Projects() {
       <hr className="divider" />
      
 
-      <h2 className="header2-Projects">Calculadora de pladur</h2>
+      <h2 className="header2-Projects">DryWallCalc</h2>
       <div className="contact-item-projetos ">
       <span className="icon-text-projetos ">
           <img src={DryWallCalcIcon} alt="DryWallCalc" className="icon-projetos" />
@@ -68,6 +68,13 @@ function Projects() {
       É possivel ainda que sejam impressos relatórios em pdf com a lista de materiais a encomendar aos fornecedores.
 
       </p>
+      <Link to="/projects/DryWallCalc" className="button-link">
+        <button className="contact-button">
+          Ver mais
+        </button>
+      </Link>
+
+
       <hr className="divider" />
 
       

@@ -14,14 +14,13 @@
     line-height: 1.6;
   }
   
-  .arvo-bold-cab {
+  .arvo-cab {
     font-family: "Arvo", serif;
     font-weight: 700;
     font-style: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    color: #264653;
-    
+    text-align: center;
+    padding: 5px;
+    color: #264653;    
   }
 
 
