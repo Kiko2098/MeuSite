@@ -72,7 +72,7 @@
     border: none;
     height: 2px;
     background-color: black;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 20px;
     width: 80%;
     color: #333333;
@@ -163,3 +163,29 @@
     background-color: #f2f2f2;
   }
   
+  .contact-button {
+    background-color: #264653; 
+    border: none;
+    color: white;
+    font-weight: 400;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: "Arvo", serif;
+    transition: background-color 0.5s ease;
+  }
+
+  .button-link {
+    color: inherit;  
+    text-decoration: none;
+  }
+  
+  .button-link:hover, .button-link:focus, .button-link:active {
+    color: inherit;  
+    text-decoration: none;
+  }
