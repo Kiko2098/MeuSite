@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import './MicroGreens.css';
+import './MicroGreensV2.css';
 import desktopImg1 from './Imagens/Desktop1.png'; 
 import desktopImg2 from './Imagens/Desktop2.png'; 
 import desktopImg3 from './Imagens/Desktop3.png'; 
@@ -16,18 +16,19 @@ const ImageCyclerDesktop = () => {
       slidesToShow: 1,
       autoplay: true,
       autoplaySpeed: 3000,
+      adaptiveHeight: true,      
   };
 
   return (
-    <Slider {...settings}>
-        <div className="microgreens-image-item">
-            <img src={desktopImg1} alt="Desktop 1" className="microgreens-image" />
+    <Slider {...settings} >
+        <div className="microgreensv2-image-item">
+            <img src={desktopImg1} alt="Desktop 1" className="microgreensv2-image" />
         </div>
-        <div className="microgreens-image-item">
-            <img src={desktopImg2} alt="Desktop 2" className="microgreens-image" />
+        <div className="microgreensv2-image-item">
+            <img src={desktopImg2} alt="Desktop 2" className="microgreensv2-image" />
         </div>
-        <div className="microgreens-image-item">
-            <img src={desktopImg3} alt="Desktop 3" className="microgreens-image" />
+        <div className="microgreensv2-image-item">
+            <img src={desktopImg3} alt="Desktop 3" className="microgreensv2-image" />
         </div>
     </Slider>
   );
@@ -44,21 +45,21 @@ const ImageCyclerAndroid = () => {
   };
 
   return (
-    <Slider {...settings}>
-        <div className="microgreens-image-item">
-            <img src={androidImg1} alt="Android 1" className="microgreens-image" />
+    <Slider {...settings} >
+        <div className="microgreensv2-imageitem"> 
+            <img src={androidImg1} alt="Android 1" className="microgreensv2-image" />
         </div>
-        <div className="microgreens-image-item">
-            <img src={androidImg2} alt="Android 2" className="microgreens-image" />
+        <div className="microgreensv2-imageitem">
+            <img src={androidImg2} alt="Android 2" className="microgreensv2-image" />
         </div>        
     </Slider>
   );
 }
 
-function MicroGreens() {
+function MicroGreensV2() {
   return (
     <div className="MicroGreens">
-      <h1 className="h1-MicroGreens">MicroGreens</h1>
+      <h1 className="h1-MicroGreens">MicroGreensHUB - V2</h1>
       <hr className="divider-MicroGreens" />      
       <h2 className="h2-MicroGreens">Introdução</h2>
       
@@ -85,12 +86,12 @@ function MicroGreens() {
       </p>
 
       <h4 className="h4-MicroGreens">Desktop</h4>
-      <div className="image-cycler">
+      <div className="microgreensv2-imagecycler">
         <ImageCyclerDesktop />
       </div>
 
       <h4 className="h4-MicroGreens">Android</h4>
-      <div className="image-cycler">
+      <div className="microgreensv2-imagecycler">
         <ImageCyclerAndroid />
       </div>
 
@@ -161,4 +162,4 @@ function MicroGreens() {
   );
 }
 
-export default MicroGreens;
+export default MicroGreensV2;

@@ -65,7 +65,7 @@ function PrivacyDryWallCalc() {
 
           <h2 className="arvo-bold-cab">7.Contato</h2>
           <p className="arvo-regular">Se tiver alguma dúvida sobre esta Política de Privacidade ou sobre o funcionamento da aplicação, 
-            sinta-se à vontade para nos contatar pelo e-mail: contacto@franciscoalmeida.pt .
+            sinta-se à vontade para nos contatar pelo e-mail: francisco.faustino.almeida@gmail.com .
             </p>
           
             <hr className="divider-PWC" />   

@@ -8,7 +8,7 @@ import DryWallCalcIcon from './Imagens/DryWallCalc.png';
 function Projects() {
   return (
     <div className="Projects">
-      <h2 className="header2-Projects">Microgreens</h2>
+      <h2 className="header2-Projects">MicroGreensHUB</h2>
       <div className="contact-item-projetos ">
       <span className="icon-text-projetos ">
           <img src={verdesMondegoIcon} alt="VerdesMondego" className="icon-projetos" />
@@ -26,9 +26,14 @@ function Projects() {
 
 
       </p>
-      <Link to="/projects/MicroGreens" className="button-link">
+      <Link to="/projects/MicroGreensV2" className="button-link">
         <button className="contact-button">
-          Ver mais
+          Ver mais - Versão 2
+        </button>
+      </Link>
+      <Link to="/projects/MicroGreensV3" className="button-link">
+        <button className="contact-button">
+        Ver mais - Versão 3
         </button>
       </Link>
       <hr className="divider" />    

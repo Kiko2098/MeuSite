@@ -99,32 +99,7 @@ function DryWallCalc() {
         <li className="li-DryWallCalc">Materiais por Divisão</li>
       </ul>
       
-      <h2 className="h2-DryWallCalc">Estado de Publicação</h2>
-      <table className="inicio-table">
-        <thead>
-          <tr>
-            <th>Publicação</th>
-            <th>Estado</th>
-          </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Teste Interno</td>
-            <td>Em curso</td>
-          </tr>
-
-          <tr>
-            <td>Teste Fechado</td>
-            <td>Por Iniciar</td>
-          </tr>
-          
-          <tr>
-            <td>Teste Aberto</td>
-            <td>Por Iniciar</td>
-          </tr>
-          
-        </tbody>
-      </table>
+      
 
 
       <Link to="/privacy/DryWallCalc" className="button-link">
